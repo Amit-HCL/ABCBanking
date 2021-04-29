@@ -1,0 +1,32 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form .form-body {
+  width: 50%;
+  margin-top: 15%;
+  box-shadow: 5px 5px 5px 5px gray;
+  display: flex;
+  justify-content: center;
+}
+.login-form .form-body Form {
+  width: 60%;
+  margin: 5%;
+}
+.login-form .create-form-body {
+  width: 50%;
+  margin-top: 5%;
+  box-shadow: 5px 5px 5px 5px gray;
+  display: flex;
+  justify-content: center;
+}
+.login-form .create-form-body Form {
+  width: 60%;
+  margin: 2%;
+}
+
+.home-form-tab {
+  width: 30%;
+  margin-left: 5%;
+}

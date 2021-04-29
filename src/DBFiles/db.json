@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "id": "1234567890",
+      "accountNo": "1234567890",
+      "username": "user@123",
+      "password": "user@123",
+      "isAdmin": "false"
+    },
+    {
+      "id": "22222222",
+      "accountNo": "222222",
+      "username": "admin@123",
+      "password": "admin@123",
+      "isAdmin": "true"
+    }
+  ],
+  "customerbank": [
+    {
+      "id": "1234567890",
+      "accountNo": "1234567890",
+      "name": "Raju Srivastava Ji",
+      "phone": "7654567898",
+      "email": "Raju@gmail.com",
+      "address": "Mumbai",
+      "accountType": "Savings",
+      "balance": 999100
+    }
+  ],
+  "fixedDeposits": [
+    {
+      "id": "hahahahahywywyw",
+      "userId": "1234567890",
+      "name": "Raju",
+      "intrestRate": "10",
+      "startDate": "12-03-2020",
+      "endDate": "12-03-2025",
+      "amount": "10000"
+    },
+    {
+      "id": "293121133538392",
+      "userId": "1234567890",
+      "name": "Raju Srivastave",
+      "intrestRate": "10",
+      "startDate": "4-29-2021",
+      "endDate": "2021-04-25",
+      "amount": "12000"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "kwkwkwkwlla",
+      "userid": "1234567890",
+      "name": "Raju Srivastava Ji",
+      "transactionType": "Withdraw",
+      "accountNo": "self",
+      "amount": "1000"
+    },
+    {
+      "id": "lksklsqwkls",
+      "userid": "1234567890",
+      "name": "Raju Srivastava Ji",
+      "transactionType": "Fixed Deposit",
+      "accountNo": "self",
+      "amount": "10000"
+    },
+    {
+      "id": "2931211321911",
+      "userid": "1234567890",
+      "name": "Shamq",
+      "transactionType": "Transfer",
+      "accountNo": "1234567890",
+      "amount": "900"
+    }
+  ]
+}
